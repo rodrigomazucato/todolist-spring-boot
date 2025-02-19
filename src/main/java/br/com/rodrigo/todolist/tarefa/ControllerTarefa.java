@@ -32,7 +32,7 @@ public class ControllerTarefa {
 
     private void validarDatas(LocalDateTime inicio, LocalDateTime termino){
         var dataAtual = LocalDateTime.now();
-        if (inicio.isBefore(dataAtual) || termino.isBefore(termino)){
+        if (inicio.isBefore(dataAtual) || termino.isBefore(dataAtual)){
             throw new IllegalArgumentException("A data de início / término não pode ser anterior à data atual!");
         }
         if (inicio.isAfter(termino)){
