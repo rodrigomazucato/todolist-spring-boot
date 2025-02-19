@@ -9,7 +9,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests # Compila o código sem rodar testes
 
 # Etapa 2: Runtime (Imagem final mais leve)
-FROM openjdk:17-jdk-alpine
+FROM eclipse-temurin:17-jre-alpine
 
 WORKDIR /app
 COPY --from=build /app/target/todolist-1.0.0.jar app.jar
