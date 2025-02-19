@@ -57,6 +57,5 @@ public class FiltroAutenticacao extends OncePerRequestFilter {
             autenticarUsuario(request, response);
         }
         filterChain.doFilter(request, response);
-        
     }
 }
