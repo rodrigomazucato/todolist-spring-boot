@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size: 240px;">
-  To Do List - Java e Spring Boot
+  🚀 To Do List - Java e Spring Boot 🚀
 </h1>
 
 ## 💻 Objetivo
@@ -144,4 +144,4 @@ Para executar a aplicação utilizando Docker:
     ```
 
 ---
-Feito com muita dedicação 🎯 por Rodrigo Mazucato 🚀.
+Feito com muita dedicação 🎯 por [Rodrigo Mazucato](https://github.com/rodrigomazucato) 🚀
