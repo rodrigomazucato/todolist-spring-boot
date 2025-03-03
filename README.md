@@ -12,8 +12,16 @@ O Todolist é um gerenciador de tarefas simples desenvolvido em Java utilizando 
 - 🛡️ **Validação de Dados**: Validação de datas, permissões de usuário e limite de caracteres para o título da tarefa (máximo de 50 caracteres).
 - ⚠️ **Tratamento de Exceções**: Manipulação de exceções comuns para fornecer respostas HTTP apropriadas.
 
-## 📂 Estrutura principal do projeto
+## 🛠️ Tecnologias Utilizadas
 
+- **Java 17**
+- **Spring Boot 3.4.2**
+- **Spring Data JPA**
+- **H2 Database**
+- **Lombok**
+- **BCrypt**
+
+## 📂 Estrutura principal do projeto
 ```
 src/
 └── main/
@@ -37,16 +45,6 @@ src/
                         ├── TodolistApplication.java
                         └── TesteRota.java
 ```
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Java 17**
-- **Spring Boot 3.4.2**
-- **Spring Data JPA**
-- **H2 Database**
-- **Lombok**
-- **BCrypt**
-
 ## ⚙️ Configuração do Ambiente
 
 ### Pré-requisitos
